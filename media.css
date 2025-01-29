@@ -1,0 +1,85 @@
+@media (max-widht: 990px) {
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-widht:600px) {
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* === RESPONSIVE DESIGN === */
+
+/* Planshet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .contanier {
+        width: 90%;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .hhh {
+        padding: 30px;
+    }
+
+    .hhh .fch {
+        width: 250px;
+    }
+
+    .ppp {
+        width: 45%;
+    }
+}
+
+/* Telefon (max 768px) */
+@media (max-width: 768px) {
+    .contanier {
+        width: 95%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hhh {
+        padding: 20px;
+    }
+
+    .hhh .fch {
+        width: 200px;
+    }
+
+    .ppp {
+        width: 100%;
+    }
+
+    .ppp-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bbb {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .view-more {
+        width: 100%;
+    }
+}
